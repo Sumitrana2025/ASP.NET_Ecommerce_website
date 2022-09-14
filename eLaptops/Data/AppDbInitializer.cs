@@ -229,7 +229,7 @@ namespace eLaptops.Data
                             ModelName = "MacBook Air",
                             ScreenSize = "13 Inches",
                             Price = 92900,
-                            ImageURL = "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-gallery3-20201110?wid=2000&hei=1536&fmt=jpeg&qlt=95&.v=1632937845000",
+                            ImageURL = "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg",
                             Colour = "Gold",
                             CPUModel = "Core M Family",
                             RAM = "8 GB",
