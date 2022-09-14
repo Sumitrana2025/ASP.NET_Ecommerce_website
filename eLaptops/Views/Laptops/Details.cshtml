@@ -1,0 +1,54 @@
+﻿@model Laptop
+
+@{
+    ViewData["Title"] = "Laptop details";
+}
+
+<div class="row">
+    <div class="col-md-8 offset-2">
+        <div class="card mb-12">
+            <div class="row g-0">
+                <div class="col-md-12">
+                    <div class="card-header text-white bg-info">
+                        <p class="card-text">
+                            <h5 class="card-title">
+                                @Model.ModelName
+                            </h5>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="@Model.ImageURL" width="100%" alt="@Model.ModelName">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                      
+                        
+                        
+                            <p class="card-text"><b>CPU Model: </b>@Model.CPUModel</p>
+                            <p class="card-text"><b>RAM: </b>@Model.RAM</p>
+                            <p class="card-text"><b>Price: </b>₹ @Model.Price</p>
+                            <p class="card-text"><b>Operating System: </b>@Model.OperatingSystem</p>
+                            <p class="card-text"><b>Colour: </b>@Model.Colour</p>
+                            <p class="card-text"><b>ScreenSize: </b>@Model.ScreenSize</p>
+
+                        
+                        
+                        
+
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="card-footer">
+                        <p class="card-text">
+                            <a class="btn btn-outline-primary float-right" asp-action="Index">
+                                Back to List
+                            </a>
+                            <a class="btn btn-success text-white"><i class="bi bi-cart-plus"></i> Add to Cart </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
